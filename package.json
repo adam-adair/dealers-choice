@@ -12,6 +12,9 @@
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
+		"@babel/core": "^7.4.3",
+		"@babel/preset-react": "^7.0.0",
+		"babel-loader": "^8.0.5",
 		"axios": "^0.20.0",
 		"express": "^4.17.1",
 		"morgan": "^1.10.0",
@@ -23,9 +26,6 @@
     "webpack-cli": "^3.3.12"
 	},
 	"devDependencies": {
-		"nodemon": "^2.0.4",
-		"@babel/core": "^7.4.3",
-		"@babel/preset-react": "^7.0.0",
-		"babel-loader": "^8.0.5"
+		"nodemon": "^2.0.4"
 	}
 }
